@@ -1,0 +1,44 @@
+{
+  "name": "gbangbola-stx-transactions",
+  "version": "1.0.0",
+  "description": "Build, sign, broadcast, batch, and manage Stacks L2 transactions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@stacks/transactions": "^7.2.0",
+    "@stacks/network": "^7.2.0",
+    "richiey1-stacks-helpers-types": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "stacks",
+    "stx",
+    "bitcoin",
+    "l2",
+    "blockchain",
+    "transactions"
+  ],
+  "author": "gbangbolaoluwagbemiga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gbangbolaoluwagbemiga/gbangbola-stx-transactions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gbangbolaoluwagbemiga/gbangbola-stx-transactions/issues"
+  },
+  "homepage": "https://github.com/Gbangbolaoluwagbemiga/gbangbola-stx-transactions#readme"
+}
